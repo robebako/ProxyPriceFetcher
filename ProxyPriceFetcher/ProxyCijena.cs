@@ -18,11 +18,11 @@ namespace ProxyPriceFetcher
             Cijena cijena = new Cijena();
             double price = cijena.prikaziCijenu(artikl);
             if (gotovina)
-                price *= 0.95;
+                price *= Constants.postotakZaGotovinu;
             switch (kategorija)
             {
                 case KategorijaKorisnika.Registrirani:
-                    return price *0.9;
+                    return price *Constants.postotakZaRegistrirane;
                 default:
                     return price;
             }
