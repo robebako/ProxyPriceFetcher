@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProxyPriceFetcher
 {
-    class ProxyCijena : ICijena
+    public class ProxyCijena : ICijena
     {
         public ProxyCijena(KategorijaKorisnika kat,bool got)
         {

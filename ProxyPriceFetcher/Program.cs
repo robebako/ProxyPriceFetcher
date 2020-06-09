@@ -11,7 +11,7 @@ namespace ProxyPriceFetcher
         public const double postotakZaRegistrirane = 0.9;
         public const double postotakZaGotovinu = 0.95;
     }
-    enum KategorijaKorisnika
+    public enum KategorijaKorisnika
     {
         Registrirani,
         Neregistrirani
