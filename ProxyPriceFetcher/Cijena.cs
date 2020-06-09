@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProxyPriceFetcher
 {
-    class Cijena : ICijena
+    public class Cijena : ICijena
     {
         public double prikaziCijenu(string artikl)
         {
